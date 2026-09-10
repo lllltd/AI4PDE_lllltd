@@ -1,0 +1,7 @@
+experiment,variant,relative_l2,secondary_metric,secondary_value,notes
+RAR,pre_refinement,0.1768920046,mean_candidate_residual,0.0198062379,Official DeepXDE recipe before adding an anchor
+RAR,one_anchor,0.0100671342,mean_candidate_residual,0.0036278754,Stopped after one maximum-residual anchor
+adaptive_weight_helmholtz,M1_fixed,0.1677821856,final_bc_weight,1.0,Original paper problem
+adaptive_weight_helmholtz,M2_adaptive,0.0194178549,final_bc_weight,88.9689156259,Original paper algorithm and problem
+adaptive_weight_burgers,M1_fixed,0.1101230914,final_ic_bc_weights,1_and_1,Transfer experiment not in the original paper
+adaptive_weight_burgers,M2_adaptive,0.0598412814,final_ic_bc_weights,27.0186_and_61.9726,Transfer experiment not in the original paper

@@ -1,0 +1,4 @@
+.venv/
+__pycache__/
+paper_reproductions/**/*.pt
+paper_reproductions/**/history.csv

@@ -1,0 +1,5 @@
+problem,mode,relative_l2,final_lambda_bc,final_lambda_ic
+helmholtz,M1_fixed,0.16778218562592673,1.0,1.0
+helmholtz,M2_adaptive,0.01941785494123633,88.96891562587987,1.0
+burgers,M1_fixed,0.11012309144124091,1.0,1.0
+burgers,M2_adaptive,0.05984128137281889,61.97257118582532,27.01862497044591
