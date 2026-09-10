@@ -2,6 +2,8 @@
 
 AI4PDE / Scientific Machine Learning 学习实验与结果。
 
+项目目录、实验 README、结果图、指标与 Git 上传统一遵循 [项目管理与上传规范](PROJECT_UPLOAD_GUIDE.md)。
+
 ## Experiments
 
 - [2026-09-09 — Burgers Equation PINN and limitation studies](2026-09-09-burgers-pinn-limitations/README.md)
