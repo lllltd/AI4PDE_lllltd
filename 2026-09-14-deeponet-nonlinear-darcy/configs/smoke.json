@@ -1,0 +1,42 @@
+{
+  "run_name": "smoke",
+  "seed": 42,
+  "device": "cpu",
+  "pde": {
+    "n_grid": 40,
+    "kappa0": 0.2,
+    "max_iter": 100,
+    "relaxation": 0.5,
+    "update_tol": 1e-9,
+    "residual_tol": 1e-8,
+    "face_scheme": "cornell_left",
+    "stop_on_convergence": true
+  },
+  "data": {
+    "n_train": 32,
+    "n_val": 8,
+    "n_test": 8,
+    "length_scale": 0.04,
+    "source_amplitude": 1.0,
+    "jitter": 1e-6,
+    "sampler": "cornell_scipy"
+  },
+  "model": {
+    "branch_hidden": [32, 32],
+    "trunk_hidden": [32, 32],
+    "latent_dim": 32,
+    "activation": "gelu",
+    "output_bias": false
+  },
+  "training": {
+    "epochs": 12,
+    "batch_size": 8,
+    "learning_rate": 0.001,
+    "weight_decay": 0.0,
+    "eval_every": 1,
+    "sampling": "cornell_random_batch"
+  },
+  "plots": {
+    "n_test_samples": 3
+  }
+}

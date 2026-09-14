@@ -1,0 +1,3 @@
+method,scope,global_relative_l2,first5_combined_relative_l2,test_rmse,test_mae,mean_sample_relative_l2,median_sample_relative_l2,max_sample_relative_l2,n_test,seed,epochs
+Cornell_notebook,reported,,0.0306,,,,,,,42,5000
+this_reproduction,all_test_functions,0.03735958390562525,0.03334206381590511,0.005643834563537008,0.004367918484525763,0.059891541570361466,0.04650287188348197,0.36779284641689397,200,42,5000

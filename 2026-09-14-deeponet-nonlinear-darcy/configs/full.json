@@ -1,0 +1,42 @@
+{
+  "run_name": "full",
+  "seed": 42,
+  "device": "auto",
+  "pde": {
+    "n_grid": 40,
+    "kappa0": 0.2,
+    "max_iter": 100,
+    "relaxation": 0.5,
+    "update_tol": 1e-9,
+    "residual_tol": 1e-8,
+    "face_scheme": "cornell_left",
+    "stop_on_convergence": false
+  },
+  "data": {
+    "n_train": 800,
+    "n_val": 0,
+    "n_test": 200,
+    "length_scale": 0.04,
+    "source_amplitude": 1.0,
+    "jitter": 1e-6,
+    "sampler": "cornell_scipy"
+  },
+  "model": {
+    "branch_hidden": [256, 256],
+    "trunk_hidden": [256, 256],
+    "latent_dim": 128,
+    "activation": "gelu",
+    "output_bias": false
+  },
+  "training": {
+    "epochs": 5000,
+    "batch_size": 64,
+    "learning_rate": 0.001,
+    "weight_decay": 0.00001,
+    "eval_every": 100,
+    "sampling": "cornell_random_batch"
+  },
+  "plots": {
+    "n_test_samples": 5
+  }
+}

@@ -1,0 +1,2 @@
+n_samples,n_converged,iterations_mean,iterations_max,relative_residual_max,generation_seconds,face_scheme,relaxation
+1000,1000,100.0,100,5.62175380366345e-14,9.896806583012221,cornell_left,0.5
